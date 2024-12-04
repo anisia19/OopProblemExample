@@ -1,0 +1,16 @@
+Program care face gestionarea camerelor dintr-un hotel.
+Hotelul are : nume, o adresa si o colectie de camere. O camera poate fi de doua tipuri:
+
+Camera Standard : are nummarul camerei (maxim 4 cifre), capacitate (intre 1 si 5 persoane), tariful pe noapte (pozitiv, in RON) si disponibilitatea (true / false).
+Metoda CheckAvailability() verifica disponibilitatea si afiseaza mesajul "Camera [numar] este disponibila" sau "Camera[numar] nu este disponibila."
+
+Suita : Include numarul camerei (maxim 4 cifre), capacitate (intre 1 si 5 persoane), tariful pe noapte (pozitiv, in RON) si un bonus (string, de ex : "piscina"/"balcon").
+Metoda CheckAvailability() verifica disponibilitatea si afiseaza mesajul "Disponibilitatea suitei [numar] este verificabila doar la receptie."
+
+Cerinte:
+1) implementare model OO
+2) adauga hotel si se adauga 2 camere din fiecare tip, tinand cont de validari, 
+3) afisare toate camerele
+4) setare tarif la 60% din hotelul curent
+5) BONUS : programul nu tb sa se termine necontrolat (try and catch basically)
+
