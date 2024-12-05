@@ -36,4 +36,6 @@ public abstract class Room
     {
         return $"Room Number {RoomNumber}, Capacity {Capacity}, Tarrif {Tarrif}";
     }
+    
+    public abstract void Something();
 }

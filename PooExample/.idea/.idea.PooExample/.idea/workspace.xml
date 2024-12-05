@@ -8,12 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90bbc25d-f955-4efa-b743-81df94c3a157" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooExample/InvalidCapacity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooExample/InvalidRoomNumber.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooExample/InvalidTariff.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PooExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PooExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExample/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExample/Hotel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/Hotel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooExample/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExample/StandardRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/StandardRoom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExample/SuiteRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/SuiteRoom.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -40,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.PooExample.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.PooExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PooExample" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -82,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733354964356</updated>
       <workItem from="1733354966143" duration="1538000" />
+      <workItem from="1733403777506" duration="75000" />
     </task>
     <servers />
   </component>

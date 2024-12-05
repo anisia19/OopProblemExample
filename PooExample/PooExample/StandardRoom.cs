@@ -21,4 +21,9 @@ public class StandardRoom : Room
             Console.WriteLine($"Room {RoomNumber} is not available");
         }
     }
+
+    public override void Something()
+    {
+        throw new NotImplementedException();
+    }
 }

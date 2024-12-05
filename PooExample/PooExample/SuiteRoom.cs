@@ -14,4 +14,9 @@ public class SuiteRoom : Room
     {
         Console.WriteLine("Room is only available at the reception desk!");
     }
+
+    public override void Something()
+    {
+        throw new NotImplementedException();
+    }
 }
