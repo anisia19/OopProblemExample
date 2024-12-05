@@ -38,4 +38,9 @@ public abstract class Room
     }
     
     public abstract void Something();
+
+    public void SomethingElse()
+    {
+        Console.WriteLine("Something else");
+    }
 }

@@ -8,13 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90bbc25d-f955-4efa-b743-81df94c3a157" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PooExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PooExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExample/Hotel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/Hotel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooExample/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/Room.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExample/StandardRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/StandardRoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExample/SuiteRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/SuiteRoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733354964356</updated>
       <workItem from="1733354966143" duration="1538000" />
-      <workItem from="1733403777506" duration="75000" />
+      <workItem from="1733403777506" duration="376000" />
     </task>
     <servers />
   </component>
