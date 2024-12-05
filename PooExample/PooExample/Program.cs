@@ -1,4 +1,6 @@
-﻿namespace PooExample;
+﻿using System.Net.Sockets;
+
+namespace PooExample;
 public class Program
 { 
     public static void Main(string[] args)
@@ -18,11 +20,25 @@ public class Program
         
         foreach (Room room in rooms)
         {
-            if (room.CheckRoomDetails() == true)
+            try
             {
-               hotel.AddRoom(room);
+                room.CheckRoomDetails();
+                hotel.AddRoom(room);
+            }
+            catch (InvalidRoomNumber ex)
+            {
+                Console.WriteLine(ex);
+            }
+            catch (InvalidTariff ex)
+            {
+                Console.WriteLine(ex);
+            }
+            catch (InvalidCapacity ex)
+            {
+                Console.WriteLine(ex);
             }
         }
+        
         Console.WriteLine(hotel);
     }
 }

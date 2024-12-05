@@ -8,8 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90bbc25d-f955-4efa-b743-81df94c3a157" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PooExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExample/Hotel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/Hotel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooExample/InvalidCapacity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooExample/InvalidRoomNumber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooExample/InvalidTariff.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PooExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PooExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooExample/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooExample/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/Room.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PooExample/obj/Debug/net8.0/PooExample.AssemblyInfo.cs" afterDir="false" />
