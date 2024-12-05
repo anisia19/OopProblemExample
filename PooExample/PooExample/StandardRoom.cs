@@ -9,4 +9,16 @@ public class StandardRoom : Room
     {
         Availability = availability;
     }
+
+    public override void CheckAvailability()
+    {
+        if (Availability == true)
+        {
+            Console.WriteLine($"Room {RoomNumber} is available");
+        }
+        else
+        {
+            Console.WriteLine($"Room {RoomNumber} is not available");
+        }
+    }
 }

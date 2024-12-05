@@ -9,4 +9,9 @@ public class SuiteRoom : Room
     {
         BonusItem = bonusItem;
     }
+
+    public override void CheckAvailability()
+    {
+        Console.WriteLine("Room is only available at the reception desk!");
+    }
 }

@@ -1,6 +1,6 @@
 ﻿namespace PooExample;
 
-public class Room
+public abstract class Room
 {
     protected int RoomNumber { get; set; }
     protected int Capacity { get; set; }
@@ -12,4 +12,5 @@ public class Room
         Capacity = capacity;
         Tarrif = tarrif;
     }
+    public abstract void CheckAvailability();
 }
