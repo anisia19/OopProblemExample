@@ -1,0 +1,39 @@
+MVC
+
+model = datele aplicatiei
+View = prezentarea ecranului
+Controller = modul in care interfata interactioneaza cu utlizatorul
+
+O sa facemt totul cu ASP.NET Core MVC
+Basically asta este un framework.
+
+https://blog.jetbrains.com/dotnet/2019/11/25/quick-overview-asp-net-core-rider/
+
+pt logger:
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-9.0
+
+Dependencies: This contains the NuGet packages your project depends on. The .NET 9.0 version is shown here. It includes the necessary libraries for the project.
+
+wwwroot: This folder holds the static files like CSS, JavaScript, images, and libraries for the client-side (frontend).
+
+css: Place your stylesheets (custom or third-party CSS).
+js: Any custom or third-party JavaScript files go here.
+lib: This is usually where client-side libraries (like Bootstrap, jQuery, etc.) are stored.
+favicon.ico: The icon for the browser tab (favicon).
+Controllers: This folder handles requests from users and returns the appropriate responses. Each controller contains actions (methods) to manage the requests.
+
+HomeController.cs: A default controller for handling routes (e.g., the home page). It has methods to handle requests like Index, About, or Contact.
+Models: This folder contains the data and business logic. It interacts with the database and sends data to the views.
+
+ErrorViewModel.cs: This is a default model for handling errors and passing error information to views.
+Views: Contains the user interface (UI) files, written in Razor (HTML + C#).
+
+Home: Views related to the HomeController. Typically, the files here map to the actions in the controller (e.g., Index.cshtml).
+Shared: Common views used across the application, like layouts and partial views.
+_ViewImports.cshtml: Contains common Razor directives shared across views.
+_ViewStart.cshtml: Defines code that runs before rendering a view, typically setting a layout.
+appsettings.json: This file contains configuration settings, like connection strings and application-wide settings.
+
+appsettings.Development.json: Similar to appsettings.json, but specific for the development environment.
+
+Program.cs: The entry point of the application. It sets up the web host and application services.
